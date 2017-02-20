@@ -71,6 +71,7 @@ h2,
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 .contact{
     margin-top: 70px;
     color: #DBDBDB;
@@ -80,6 +81,9 @@ h4,
     margin-top: 15px;
     margin-bottom: 15px;
     font-weight: bold;
+}
+.project-title {
+    font-weight: normal;
 }
 h6,
 .h6 {
@@ -134,14 +138,36 @@ h6,
     display: inline;
 
 }
-
 .key-tags {
     background-color: #35AC70;
     border-radius: 3px;
     color: #FEFEFE;
     padding: 3px 5px 3px 5px;
-    max-width: 50px;
     text-align: center;
     display: inline-block;
     margin: 0.5em;
+}
+.tags-widget {
+    padding-top: 30px;
+    display: inline-block;
+    text-align: left;
+}
+
+.summary {
+    font-size: 12px;
+    font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+
+.in-progress {
+    color: darkorange;
+    font-size: 13px;
+}
+.completed {
+    color: #35AC70;
+    font-size: 13px;
+}
+
+.project {
+    max-width: 300px;
 }
