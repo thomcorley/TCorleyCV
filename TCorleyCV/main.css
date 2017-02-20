@@ -171,3 +171,13 @@ h6,
 .project {
     max-width: 300px;
 }
+
+@keyframes scroll-reveal {
+    from {opacity: 0}
+    to {opacity: 100}
+}
+
+.reveal {
+    animation-name: scroll-reveal;
+    animation-duration: 1500ms;
+}
