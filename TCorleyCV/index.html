@@ -6,12 +6,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
-    <script src="bower_components/aos/dist/aos.js"></script>
+    <link rel="stylesheet" href="aos.css" />
+    <script src="aos.js"></script>
+    <script>
+        AOS.init({
+        });
+    </script>
     <title>T. Corley C.V.</title>
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-    <script>
+    <!--<script>
         var controller = new ScrollMagic.Controller();
         new ScrollMagic.Scene({
             duration: 100,  // the scene should last for a scroll distance of 100px
@@ -19,7 +23,7 @@
         })
             .setPin(".reveal") // pins the element for the the scene's duration
             .addTo(controller); // assign the scene to the controller
-    </script>
+    </script>-->
 </head>
 <body class="reveal">
   <div class="main-content">
@@ -46,7 +50,7 @@
             <div class="col-sm-8  reveal">
                 <h2>PROFILE</h2>
                 <div class="area">
-                    <p class="reveal">I’m relatively new to the field of software development; with a good basic knowledge of Object Oriented programming and also some experience in HTML, CSS, and JavaScript. A three week internship with a software engineering company gave me a foundation of PHP best practices and some great experience developing some mini applications in Silex. I created this online CV using Bootstrap as some evidence of my front-end skills. I am also working on a recipe application, applying the PHP knowledge I have gained. I attended the PHP UK conference in February, which was a fantastic learning experience. It was also lovely to discover the welcoming nature of the wider PHP community</p>
+                    <p class="reveal">I’m relatively new to the field of software development; with a good basic knowledge of Object Oriented Programming and also some experience in HTML, CSS, and JavaScript. A three week internship with a software engineering company gave me a foundation of PHP best practices and some great experience developing some mini applications in Silex. I created this online CV using Bootstrap as some evidence of my front-end skills. I am also working on a recipe application, applying the PHP knowledge I have gained. I attended the PHP UK conference in February, which was a fantastic learning experience. It was also lovely to discover the welcoming nature of the wider PHP community</p>
                     <br>
                     <p class="reveal">This move to web development is a significant change in career path for me. After leaving university with a degree in Physics, I decided to follow my dream and pursue a career as a chef. In the six years since then I achieved a senior position in a Michelin Star establishment and gained a wealth of transferable skills from working in fast-paced, high pressure kitchens. I have, however, become more and more interested in development and started to learn how to code.</p>
                     <br>
@@ -115,8 +119,10 @@
                     <h6 class="key-tags">PDO</h6>
                     <h6 class="key-tags">REGEX</h6>
                     <h6 class="key-tags">SOLID</h6>
+                    <h6 class="key-tags">VIRTUAL BOX</h6>
+                    <h6 class="key-tags">VAGRANT</h6>
                     <h6 class="key-tags">HTTP</h6>
-
+                    <h6 class="key-tags">OOP</h6>
                 </div>
             </div>
         </div>
@@ -131,94 +137,60 @@
         </div>
 
         <div class="row">
-           <div class="col-xs-6 jobs-wide reveal">
+           <div class="col-sm-6 jobs-wide reveal">
                <div class="project">
                    <h4 class="project-title">Trello - YouTrack Integrator</h4>
-                   <h5 class="completed"><i class="glyphicon glyphicon-ok-sign"></i>  COMPLETED</h5>
-                   <p class="summary">
-                       <i class="glyphicon glyphicon-triangle-right"></i>
-                       An internal tool for integrating Trello (requirements gathering) and agile board.
-                   </p>
-                   <p class="summary">
-                       <i class="glyphicon glyphicon-triangle-right"></i>
-                       Automatically update an issue on a YouTrack agile board with information from a Trello card.
-                   </p>
-                   <p class="summary">
-                       <i class="glyphicon glyphicon-triangle-right"></i>
-                       Working with 2 APIs and getting them to communicate.
-                   </p>
-                   <p class="summary">
-                       <i class="glyphicon glyphicon-triangle-right"></i>
-                       Using Twig to create a friendly user interface for setting up the webhook.
-                   </p>
+                   <h5 class="completed"><i class="glyphicon glyphicon-ok-sign"></i>&nbsp;&nbsp;&nbsp;&nbsp;COMPLETED</h5>
+                   <ul class="summary bullet">
+                       <li>An internal tool for integrating Trello (requirements gathering) and agile board.</li>
+                       <li>Automatically update an issue on a YouTrack agile board with information from a Trello card.</li>
+                       <li>Working with 2 APIs and getting them to communicate.</li>
+                       <li>Using Twig to create a friendly user interface for setting up the webhook.</li>
+                   </ul>
                </div>
            </div>
 
-            <div class="col-xs-6 jobs-wide reveal">
+            <div class="col-sm-6 jobs-wide reveal">
                 <div class="project">
                     <h4 class="project-title">DNS Failover Switch</h4>
-                    <h5 class="completed"><i class="glyphicon glyphicon-ok-sign"></i>  COMPLETED</h5>
-                    <p class="summary">
-                        <i class="glyphicon glyphicon-triangle-right"></i>
-                        A program to switch the IP addresses of a web app and all its sub domains from one IP to another, using a single  button.
-                    </p>
-                    <p class="summary">
-                        <i class="glyphicon glyphicon-triangle-right"></i>
-                        Working with the API of <a href="http://www.dnsmadeeasy.com/" target="_blank" title="Dns Made Easy">Dns Made Easy</a>.
-                    </p>
-                    <p class="summary">
-                        <i class="glyphicon glyphicon-triangle-right"></i>
-                        Learned how to do basic HTTP authentication.
-                    </p>
-                    <p class="summary">
-                        <i class="glyphicon glyphicon-triangle-right"></i>
-                        Gained a good basic understanding of the HTTP protocol.
-                    </p>
+                    <h5 class="completed"><i class="glyphicon glyphicon-ok-sign"></i>&nbsp;&nbsp;&nbsp;&nbsp;COMPLETED</h5>
+                    <ul class="summary bullet">
+                        <li>A program to switch the IP addresses of a web app and all its sub domains from one IP to another, using a single  button.</li>
+                        <li>Working with the API of <a href="http://www.dnsmadeeasy.com/" target="_blank" title="Dns Made Easy">Dns Made Easy</a>.</li>
+                        <li>Learned how to do HTTP basic auth.</li>
+                        <li>Gained a good basic understanding of the HTTP protocol.</li>
+                    </ul>
                 </div>
            </div>
         </div>
 
         <div class="row">
-            <br><br>
-            <div class="col-xs-6 jobs-wide reveal">
+            <br>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 jobs-wide reveal">
                 <div class="project">
                     <h4 class="project-title">Recipe Application</h4>
-                    <h5 class="in-progress"><i class="glyphicon glyphicon-info-sign"></i>  IN PROGRESS</h5>
-                    <p class="summary">
-                        <i class="glyphicon glyphicon-triangle-right"></i>
-                        An app to display recipes in a recipe-book format, with photographs.
-                    </p>
-                    <p class="summary">
-                        <i class="glyphicon glyphicon-triangle-right"></i>
-                        A function to scale the quantities of ingredients up or down.
-                    </p>
-                    <p class="summary">
-                        <i class="glyphicon glyphicon-triangle-right"></i>
-                        A function to change from metric/imperial units.
-                    </p>
+                    <h5 class="in-progress"><i class="glyphicon glyphicon-info-sign"></i>&nbsp;&nbsp;&nbsp;&nbsp;IN PROGRESS</h5>
+                    <ul class="summary bullet">
+                        <li>An app to display recipes in a recipe-book format, with photographs.</li>
+                        <li>A function to scale the quantities of ingredients up or down.</li>
+                        <li>A function to change from metric/imperial units.</li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="col-xs-6 jobs-wide reveal">
+            <div class="col-sm-6 jobs-wide reveal">
                 <div class="project">
                     <h4 class="project-title">Ubiquitous Language Glossary</h4>
-                    <h5 class="in-progress"><i class="glyphicon glyphicon-info-sign"></i>  IN PROGRESS</h5>
-                    <p class="summary">
-                        <i class="glyphicon glyphicon-triangle-right"></i>
-                        An app to help developers build a Ubiquitous Language between developers and domain experts in Domain Driven Design.
-                    </p>
-                    <p class="summary">
-                        <i class="glyphicon glyphicon-triangle-right"></i>
-                        Recording words with definitions in different bounded contexts, saving them to a database
-                    </p>
-                    <p class="summary">
-                        <i class="glyphicon glyphicon-triangle-right"></i>
-                        A user interface for users to log in and add words.
-                    </p>
-                    <p class="summary">
-                        <i class="glyphicon glyphicon-triangle-right"></i>
-                        A forum to discuss changes to definitions of words.
-                    </p>
+                    <h5 class="in-progress"><i class="glyphicon glyphicon-info-sign"></i>&nbsp;&nbsp;&nbsp;&nbsp;IN PROGRESS</h5>
+                    <ul class="summary bullet">
+                        <li>An app to help developers build a Ubiquitous Language between developers and domain experts in Domain Driven Design.</li>
+                        <li>Recording words with definitions in different bounded contexts, saving them to a database</li>
+                        <li>A user interface for users to log in and add words.</li>
+                        <li>A forum to discuss changes to definitions of words.</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -232,28 +204,33 @@
       </div>
 
       <div class="row">
-          <div class="col-xs-6 jobs-wide reveal">
-              <h6 class="dates-wide" style="background-color: #35AC70;border-radius: 3px;color: #FEFEFE;padding: 3px;max-width: 180px;text-align: left">JANUARY 2017</h6>
+          <div class="col-sm-6 jobs-wide reveal">
+              <h6 class="dates-wide" style="rgba(53, 172, 112, 0.8);border-radius: 3px;color: #FEFEFE;padding: 3px;max-width: 180px;text-align: left">JANUARY 2017</h6>
               <p>Internship</p>
               <p><a href="http://www.gigabytegroup.co.uk/" target="blank">Gigabyte Group</a></p>
               <h6><i class="glyphicon glyphicon-map-marker"></i> London</h6>
-              <p class="summary"><i class="glyphicon glyphicon-triangle-right"></i>Three weeks working with experienced PHP developers</p>
-              <p class="summary"><i class="glyphicon glyphicon-triangle-right"></i>Helped with some features of a large accounting/ERP application.</p>
-              <p class="summary"><i class="glyphicon glyphicon-triangle-right"></i>Built some internal tools to aid their development workflow.</p>
+              <ul class="summary bullet">
+                  <li>Three weeks working with experienced PHP developers</li>
+                  <li>Helped with some features of a large accounting/ERP application.</li>
+                  <li>Built some internal tools to aid their development workflow.</li>
+              </ul>
           </div>
 
-          <div class="col-xs-6 jobs-wide reveal">
-              <h6 class="dates-wide" style="background-color: #35AC70;border-radius: 3px;color: #FEFEFE;padding: 3px;max-width: 180px;text-align: left">2016 - PRESENT</h6>
+          <div class="col-sm-6 jobs-wide reveal">
+              <h6 class="dates-wide" style="rgba(53, 172, 112, 0.8);border-radius: 3px;color: #FEFEFE;padding: 3px;max-width: 180px;text-align: left">2016 - PRESENT</h6>
               <p>VoucherCart Reseller</p>
               <p><a href="https://vouchercart.com/" target="blank">VoucherCart UK</a></p>
               <h6><i class="glyphicon glyphicon-map-marker"></i> Edinburgh</h6>
-              <p class="summary"><i class="glyphicon glyphicon-triangle-right"></i>Promoting a voucher sales engine in the hospitality sector.</p>
-              <p class="summary"><i class="glyphicon glyphicon-triangle-right"></i>Managing my own business as a reseller.</p>
-              <p class="summary"><i class="glyphicon glyphicon-triangle-right"></i>Communicating directly with clients.</p>
+              <ul class="summary bullet">
+                  <li>Promoting a voucher sales engine in the hospitality sector.</li>
+                  <li>Managing my own business as a reseller.</li>
+                  <li>Communicating directly with clients.</li>
+              </ul>
           </div>
       </div>
 
       <div class="row">
+          <br><br>
                 <div class="col-xs-4 jobs reveal">
                     <h6 class="dates">2014 - 2016</h6>
                     <p>Sous Chef</p>
@@ -314,10 +291,10 @@
        </div>
 
        <div class="row">
-           <div class="col-xs-6 reveal">
-              <p><div class="font" style="font-weight: bold">EMAIL:</div> tom@corley.me</p>
+           <div class="col-sm-6 reveal">
+              <p><div class="font" style="font-weight: bold">EMAIL:</div> &#116;&#104;&#111;&#109;&#099;&#111;&#114;&#108;&#101;&#121;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</p>
            </div>
-           <div class="col-xs-6 reveal">
+           <div class="col-sm-6 reveal">
                <p><div class="font" style="font-weight: bold">PHONE:</div> 07835285017</p>
            </div>
 
@@ -325,15 +302,34 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-12 footer reveal" style="padding-top: 70px;">
-                <h7><img src="aws logo.png" title="AWS Logo" alt="AWS logo" width="50px">Hosted by Amazon Web Services</h7>
+            <div  class="col-xs-4 footer" style="padding-top: 70px;">
+                <h7>
+                    <a href="https://aws.amazon.com/" title="Hosted on AWS" target="_blank">
+                        <img src="aws logo.png" alt="Hosted on AWS" width="50px">
+                    </a>
+                    <br>Hosted on AWS
+                </h7>
+            </div>
+            <div  class="col-xs-4 footer" style="padding-top: 70px;">
+                <h7>
+                    <a href="https://www.linkedin.com/in/thomas-corley-2a2636130/" title="LinkedIn Profile" target="_blank">
+                        <img src="linkedin.jpg" title="LinkedIn Profile" alt="LinkedIn Profile" width="60px">
+                    </a>
+                </h7>
+            </div>
+            <div  class="col-xs-4 footer" style="padding-top: 70px;">
+                <h7>
+                    <a href="https://github.com/thomcorley" title="GitHub Profile" target="_blank">
+                        <img src="github.png" title="GitHub Profile" alt="GitHub Profile" width="50px">
+                    </a>
+                </h7>
             </div>
         </div>
     </div>
   </div>
 
 
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js">
+  <!--<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js">
       window.sr = ScrollReveal.sr.reveal({
           duration: 200,
           delay: 20,
@@ -342,7 +338,7 @@
       });
       sr.reveal('.reveal');
       sr.reveal('.container-fluid');
-  </script>
+  </script>-->
 </body>
 
 

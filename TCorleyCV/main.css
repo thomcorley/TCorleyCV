@@ -25,7 +25,7 @@ body {
 
 
 .dates-wide {
-    background-color: #35AC70;
+    background-color: rgba(53, 172, 112, 0.8);
     border-radius: 3px;
     color: #FEFEFE;
     padding: 3px;
@@ -34,12 +34,15 @@ body {
 }
 
 .dates {
-    background-color: #35AC70;
+    background-color: rgba(53, 172, 112, 0.8);
     border-radius: 3px;
     color: #FEFEFE;
     padding: 3px;
     max-width: 90px;
     text-align: left;
+}
+element.style {
+    rgba(53, 172, 112, 0.7)
 }
 p {
     margin: 0;
@@ -114,7 +117,17 @@ h6,
     text-align: justify;
 }
 .col-xs-6, .jobs-wide {
-    width: 50%;
+    width:;
+}
+@media (min-width: 768px) {
+    .col-sm-6 {
+        width: 50%;
+    }
+}
+@media (max-width: 500px) {
+    .col-sm-6 {
+        padding-bottom: 20px;
+    }
 }
 
 .col-xs-2 {
@@ -139,18 +152,21 @@ h6,
 
 }
 .key-tags {
-    background-color: #35AC70;
+    background-color: rgba(53, 172, 112, 0.7);
     border-radius: 3px;
     color: #FEFEFE;
-    padding: 3px 5px 3px 5px;
+    padding: 4px 7px 4px 7px;
     text-align: center;
     display: inline-block;
-    margin: 0.5em;
+    margin: 0px 8px 8px 0;
+}
+.i-know-about {
+    text-align: left;
 }
 .tags-widget {
     padding-top: 30px;
     display: inline-block;
-    text-align: left;
+    text-align: center;
 }
 
 .summary {
@@ -169,7 +185,7 @@ h6,
 }
 
 .project {
-    max-width: 300px;
+    max-width: 355px;
 }
 
 @keyframes scroll-reveal {
@@ -180,4 +196,22 @@ h6,
 .reveal {
     animation-name: scroll-reveal;
     animation-duration: 1500ms;
+}
+.bullet li {
+    display: block;
+}
+
+.bullet li:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e250";
+    font-family: 'Glyphicons Halflings';
+    font-size: inherit;
+    float: left;
+    margin-left: -40px;
+    color: inherit;
+    -webkit-padding-start: 15px;
+    text-align: justify;
+}
+.footer {
+    text-align: center;
 }

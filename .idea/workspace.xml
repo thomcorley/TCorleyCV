@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d3eaecd-17a8-4ce1-a923-0b6f60c0b583" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CV.iml" afterPath="$PROJECT_DIR$/.idea/CV.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TCorleyCV/aos.js" afterPath="$PROJECT_DIR$/TCorleyCV/aos.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TCorleyCV/index.html" afterPath="$PROJECT_DIR$/TCorleyCV/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TCorleyCV/main.css" afterPath="$PROJECT_DIR$/TCorleyCV/main.css" />
     </list>
@@ -23,13 +23,54 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TCorleyCV/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+            <state relative-caret-position="356">
+              <caret line="207" column="66" lean-forward="false" selection-start-line="207" selection-start-column="66" selection-end-line="207" selection-end-column="66" />
               <folding>
-                <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7452#7458#0" expanded="true" />
+                <element signature="e#7458#7464#0" expanded="true" />
+                <element signature="e#7464#7470#0" expanded="true" />
+                <element signature="e#7470#7476#0" expanded="true" />
+                <element signature="e#8281#8287#0" expanded="true" />
+                <element signature="e#8287#8293#0" expanded="true" />
+                <element signature="e#8293#8299#0" expanded="true" />
+                <element signature="e#8299#8305#0" expanded="true" />
+                <element signature="e#9249#9255#0" expanded="true" />
+                <element signature="e#9255#9261#0" expanded="true" />
+                <element signature="e#9261#9267#0" expanded="true" />
+                <element signature="e#9267#9273#0" expanded="true" />
+                <element signature="e#9945#9951#0" expanded="true" />
+                <element signature="e#9951#9957#0" expanded="true" />
+                <element signature="e#9957#9963#0" expanded="true" />
+                <element signature="e#9963#9969#0" expanded="true" />
                 <element signature="n#style#0;n#h6#0;n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aos.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TCorleyCV/aos.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TCorleyCV/aos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,8 +79,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TCorleyCV/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1087">
-              <caret line="181" column="28" lean-forward="false" selection-start-line="181" selection-start-column="28" selection-end-line="181" selection-end-column="28" />
+            <state relative-caret-position="-1326">
+              <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -63,6 +104,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/TCorleyCV/aos.js" />
         <option value="$PROJECT_DIR$/TCorleyCV/index.html" />
         <option value="$PROJECT_DIR$/TCorleyCV/main.css" />
       </list>
@@ -74,10 +116,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1380" />
-    <option name="width" value="1187" />
+    <option name="x" value="1102" />
+    <option name="width" value="1465" />
     <option name="height" value="1407" />
   </component>
   <component name="ProjectView">
@@ -201,19 +246,19 @@
       <updated>1486035105308</updated>
       <workItem from="1486035106494" duration="1168000" />
       <workItem from="1486417535352" duration="1485000" />
-      <workItem from="1487578097704" duration="18799000" />
+      <workItem from="1487578097704" duration="29365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21452000" />
+    <option name="totallyTimeSpent" value="32018000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1380" y="0" width="1187" height="1407" extended-state="1" />
-    <editor active="false" />
+    <frame x="1102" y="0" width="1465" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20496894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16441281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -248,10 +293,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7452#7458#0" expanded="true" />
+            <element signature="e#7458#7464#0" expanded="true" />
+            <element signature="e#7464#7470#0" expanded="true" />
+            <element signature="e#7470#7476#0" expanded="true" />
+            <element signature="e#8281#8287#0" expanded="true" />
+            <element signature="e#8287#8293#0" expanded="true" />
+            <element signature="e#8293#8299#0" expanded="true" />
+            <element signature="e#8299#8305#0" expanded="true" />
+            <element signature="e#9249#9255#0" expanded="true" />
+            <element signature="e#9255#9261#0" expanded="true" />
+            <element signature="e#9261#9267#0" expanded="true" />
+            <element signature="e#9267#9273#0" expanded="true" />
+            <element signature="e#9945#9951#0" expanded="true" />
+            <element signature="e#9951#9957#0" expanded="true" />
+            <element signature="e#9957#9963#0" expanded="true" />
+            <element signature="e#9963#9969#0" expanded="true" />
             <element signature="n#style#0;n#h6#0;n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -269,10 +333,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7452#7458#0" expanded="true" />
+            <element signature="e#7458#7464#0" expanded="true" />
+            <element signature="e#7464#7470#0" expanded="true" />
+            <element signature="e#7470#7476#0" expanded="true" />
+            <element signature="e#8281#8287#0" expanded="true" />
+            <element signature="e#8287#8293#0" expanded="true" />
+            <element signature="e#8293#8299#0" expanded="true" />
+            <element signature="e#8299#8305#0" expanded="true" />
+            <element signature="e#9249#9255#0" expanded="true" />
+            <element signature="e#9255#9261#0" expanded="true" />
+            <element signature="e#9261#9267#0" expanded="true" />
+            <element signature="e#9267#9273#0" expanded="true" />
+            <element signature="e#9945#9951#0" expanded="true" />
+            <element signature="e#9951#9957#0" expanded="true" />
+            <element signature="e#9957#9963#0" expanded="true" />
+            <element signature="e#9963#9969#0" expanded="true" />
             <element signature="n#style#0;n#h6#0;n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -285,23 +368,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TCorleyCV/aos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCorleyCV/aos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TCorleyCV/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        <state relative-caret-position="356">
+          <caret line="207" column="66" lean-forward="false" selection-start-line="207" selection-start-column="66" selection-end-line="207" selection-end-column="66" />
           <folding>
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7452#7458#0" expanded="true" />
+            <element signature="e#7458#7464#0" expanded="true" />
+            <element signature="e#7464#7470#0" expanded="true" />
+            <element signature="e#7470#7476#0" expanded="true" />
+            <element signature="e#8281#8287#0" expanded="true" />
+            <element signature="e#8287#8293#0" expanded="true" />
+            <element signature="e#8293#8299#0" expanded="true" />
+            <element signature="e#8299#8305#0" expanded="true" />
+            <element signature="e#9249#9255#0" expanded="true" />
+            <element signature="e#9255#9261#0" expanded="true" />
+            <element signature="e#9261#9267#0" expanded="true" />
+            <element signature="e#9267#9273#0" expanded="true" />
+            <element signature="e#9945#9951#0" expanded="true" />
+            <element signature="e#9951#9957#0" expanded="true" />
+            <element signature="e#9957#9963#0" expanded="true" />
+            <element signature="e#9963#9969#0" expanded="true" />
             <element signature="n#style#0;n#h6#0;n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#7;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TCorleyCV/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1087">
-          <caret line="181" column="28" lean-forward="false" selection-start-line="181" selection-start-column="28" selection-end-line="181" selection-end-column="28" />
+        <state relative-caret-position="-1326">
+          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding />
         </state>
       </provider>
